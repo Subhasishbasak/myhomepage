@@ -1,6 +1,16 @@
 /* ------------------------------------
    Desgins
 */
+
+body {
+  font-family: 'Poppins', cursive;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Poppins', cursive;
+}
+
 .section {
   margin-top: 50px;
 }
@@ -24,4 +34,8 @@
 
 .logo-pics .first img{
   margin-right: 120px;
+}
+
+footer {
+  margin-top: 135px;
 }

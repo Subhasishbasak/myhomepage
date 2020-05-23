@@ -5,6 +5,15 @@
   margin-top: 50px;
 }
 
+body {
+  font-family: 'Poppins', cursive;
+}
+
+h2 {
+  font-weight: bold;
+  font-family:'Poppins', cursive;
+}
+
 .row.extra-exp {
   margin-top: 50px;
 }
@@ -21,6 +30,12 @@
   margin: auto;
 }
 
+.pics img_1 {
+  display: block;
+  height: 150px;
+  /* width: 100px; */
+  margin-left: 0px ;
+}
 
 /* ------------------------------------
    Separating Line
@@ -36,3 +51,4 @@ hr {
 .lk-id-btn {
   margin-top: 50px;
 }
+

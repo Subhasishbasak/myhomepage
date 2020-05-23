@@ -2,12 +2,23 @@
    Body
 */
 body {
-  font-family: 'PT Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-  font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-size : 30px; 
+}
+h4{
+  font-family:  'Poppins', cursive;
+  font-size : 18px; 
+}
+h5{
+  font-family:  'Poppins', cursive;
+  font-size : 16px; 
 }
 
 /* ------------------------------------
@@ -15,7 +26,8 @@ h2 {
 */
 /* Do this if you want to change the color of the navbar */
 .navbar.bg-dark {
-  background-color: black !important;
+  background-color: #28023D !important;
+  ;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -35,10 +47,10 @@ h2 {
 
 
 /* ------------------------------------
-   Jumbotron
+   Jumbotron color : c999d1 
 */
 .jumbotron.jumbotron-fluid {
-  background-color: black;
+  background-color: #28023D ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -46,7 +58,9 @@ h2 {
   padding-bottom: 5rem;
   color: white;
 }
-
+/*
+  background-image: url(../../../images/water_lily.jpg);
+*/
 
 /* ------------------------------------
    About Me
@@ -58,6 +72,7 @@ h2 {
   background-repeat:no-repeat;
   height: 500px;
   border-radius: 15px;
+  font-family: 'Poppins', cursive; 
 }
 
 .col-md-8 {
@@ -67,18 +82,29 @@ h2 {
 .about-text-title {
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Poppins', cursive;
+  
 }
+
+
+.btn-primary{ box-shadow: inset 0 0px 4px rgba(0,0,0); background: #28023D; color: white; }
 
 
 /* ------------------------------------
    section
+
+
+.section{ background: #f5d1ed }
+
 */
 .section {
   margin-top: 100px;
 }
 
+
 .row.extra {
   margin-top: 100px;
+  background: #f5d1ed
 }
 
 .pics img {
@@ -99,7 +125,7 @@ h2 {
 footer {
   margin-top: 100px;
   padding-left: 25px;
-  background-color: black;
+  background-color: #28023D;
   color: white;
   height: 60px;
   display: flex;
@@ -109,8 +135,12 @@ footer {
 
 .footer ul {
   list-style-type: none;
+  color: white;
+  font-family: 'PT Mono', monospace;
 }
 
 .footer li {
   display: inline;
+  color: white;
+  font-family: 'PT Mono', monospace;
 }
