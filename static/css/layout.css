@@ -71,7 +71,8 @@ h5{
   background-image: url("../images/about_pic.jpg");
   background-position:center;
   background-repeat:no-repeat;
-  height: 500px;
+  height: 450px;
+  width:300px;
   border-radius: 15px;
   font-family: 'Poppins', cursive; 
 }
