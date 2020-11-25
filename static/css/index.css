@@ -2,23 +2,27 @@
    For the Introduction Text
 */
 .about-me p {
-  font-family: 'Poppins', cursive;
+  font-family: 'Poppins';
   
 }
 body {
-  font-family: 'Poppins', cursive;
+  font-family: 'Poppins';
 }
 /*
   background: #c999d1;
 */
 
 h2 {
-  font-family: 'Poppins', cursive;
+  font-family: 'Poppins';
 }
 
 h1 {
-  font-family: 'Poppins', cursive;
+  font-family: 'Poppins';
 }
 h3 {
-  font-family: 'Poppins', cursive;
+  font-family: 'Poppins';
+}
+
+h4 {
+  font-family: 'Poppins';
 }
