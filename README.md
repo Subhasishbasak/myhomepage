@@ -1,2 +1,2 @@
 # myhomepage
-A repository for my homepage, updated on $7$ july, 2021.
+A repository for my homepage, updated on 25 july, 2024.
